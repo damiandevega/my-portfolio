@@ -1,18 +1,21 @@
 import React from 'react';
 import Cards from './Cards';
 import Avatar from './Avatar';
+import Slide from 'react-reveal/Slide';
 
 // import Description from './Description';
 // import Discount from './Discount';
 
-const Highlights = () => {
+const About = () => {
   return (
     <div>
-      <h1 style={{ 
-        textAlign: "center", 
-        padding: "30px", 
-        fontSize: "48px" }}
-        >about</h1>
+      <Slide left duration={1000}>
+        <h1 style={{ 
+          textAlign: "center", 
+          padding: "30px", 
+          fontSize: "48px" 
+        }}>about</h1>
+      </Slide>
       <div style={{ padding: "25px" }}>
         <Cards/>
       </div>
@@ -23,4 +26,4 @@ const Highlights = () => {
   )
 }
 
-export default Highlights;
+export default About;

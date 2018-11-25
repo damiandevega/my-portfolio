@@ -4,6 +4,7 @@ import classNames from 'classnames';
 import { withStyles } from '@material-ui/core/styles';
 import Avatar from '@material-ui/core/Avatar';
 import Grid from '@material-ui/core/Grid';
+import Slide from 'react-reveal/Slide';
 
 import damian from "./images/damiandevega.png";
 
@@ -32,18 +33,24 @@ function ImageAvatars(props) {
     <div className={classes.root}>
         <Grid container>
             <Grid item xs={12} sm={12} md={6}>
-                <Avatar
-                    alt="Damian de Vega"
-                    src={damian}
-                    className={classNames(classes.avatar, classes.bigAvatar)}
-                />
+                <Slide left duration={1000}>
+                    <Avatar
+                        alt="Damian de Vega"
+                        src={damian}
+                        className={classNames(classes.avatar, classes.bigAvatar)}
+                    />
+                </Slide>
             </Grid>
             <Grid item xs={12} sm={12} md={6}>
-                <h1 style={{ textAlign: 'center' }}>My Biography</h1>
-                <p style={{ textAlign: 'left', paddingLeft: '25px', paddingRight: '25px', paddingBottom: '25px' }}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus cumque voluptate vel expedita dignissimos reiciendis id architecto ut ratione sint? Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum praesentium ab rerum sed corporis necessitatibus quam perferendis expedita facilis. Debitis consequatur iure illo deleniti, ullam ex voluptas dolore commodi illum.
-                <br></br><br></br>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus cumque voluptate vel expedita dignissimos reiciendis id architecto ut ratione sint? Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum praesentium ab rerum sed corporis necessitatibus quam perferendis expedita facilis. Debitis consequatur iure illo deleniti, ullam ex voluptas dolore commodi illum.
-                </p>
+                <Slide right duration={1000}>
+                    <h1 style={{ textAlign: 'center' }}>my biography</h1>
+                </Slide>
+                <Slide right delay={250} duration={1000}>
+                    <p style={{ textAlign: 'left', paddingLeft: '25px', paddingRight: '25px', paddingBottom: '25px' }}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus cumque voluptate vel expedita dignissimos reiciendis id architecto ut ratione sint? Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum praesentium ab rerum sed corporis necessitatibus quam perferendis expedita facilis. Debitis consequatur iure illo deleniti, ullam ex voluptas dolore commodi illum.
+                    <br></br><br></br>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus cumque voluptate vel expedita dignissimos reiciendis id architecto ut ratione sint? Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum praesentium ab rerum sed corporis necessitatibus quam perferendis expedita facilis. Debitis consequatur iure illo deleniti, ullam ex voluptas dolore commodi illum.
+                    </p>
+                </Slide>
             </Grid>
         </Grid>
   </div>
