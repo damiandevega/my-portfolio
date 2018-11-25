@@ -131,87 +131,10 @@ footer .footer_copyright {
 
 .carrousel_image {
     background-size: cover !important;
-    background-image: url("./images/cover_image_3.png");
+    background-image: url("./images/damian-landing-2.png");
+    background-position: center;
     /* background-color: blue; */
 }
-
-/* 
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
-
-@media (min-width: 1281px) {
-    .carrousel_image {
-        background-size: cover !important;
-        background-image: url("./images/cover_image_3.png");
-        /* background-color: green; */
-    }
-  }
-  
-  /* 
-    ##Device = Laptops, Desktops
-    ##Screen = B/w 1025px to 1280px
-  */
-  
-  @media (min-width: 1025px) and (max-width: 1280px) {
-    .carrousel_image {
-        background-size: cover !important;
-        background-image: url("./images/cover_image_3.png");
-        /* background-color: orange; */
-    }
-  }
-  
-  /* 
-    ##Device = Tablets, Ipads (portrait)
-    ##Screen = B/w 768px to 1024px
-  */
-  
-  @media (min-width: 768px) and (max-width: 1024px) {
-    .carrousel_image {
-        background-size: cover !important;
-        background-image: url("./images/cover_image_3.png");
-        /* background-color: blue; */
-    }
-  }
-  
-  /* 
-    ##Device = Tablets, Ipads (landscape)
-    ##Screen = B/w 768px to 1024px
-  */
-  
-  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    .carrousel_image {
-        background-size: cover !important;
-        background-image: url("./images/cover_image_3.png");
-        /* background-color: yellow; */
-    }
-  }
-  
-  /* 
-    ##Device = Low Resolution Tablets, Mobiles (Landscape)
-    ##Screen = B/w 481px to 767px
-  */
-  
-  @media (min-width: 481px) and (max-width: 767px) {
-    .carrousel_image {
-        background-size: cover !important;
-        background-image: url("./images/cover_image_3.png");
-        /* background-color: gray; */
-    }
-  }
-  
-  /* 
-    ##Device = Most of the Smartphones Mobiles (Portrait)
-    ##Screen = B/w 320px to 479px
-  */
-  
-  @media (min-width: 320px) and (max-width: 480px) {
-    .carrousel_image {
-        background-size: cover !important;
-        background-image: url("./images/cover_image_3.png");
-        /* background-color: pink; */
-    }
-  }
 
 .artist_name {
     position: absolute;

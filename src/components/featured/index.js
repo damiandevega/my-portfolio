@@ -1,5 +1,5 @@
 import React from 'react'
-import Carrousel from './Carrousel';
+// import Carrousel from './Carrousel';
 import CoverImage from './CoverImage';
 import SocialMediaBar from './SocialMediaBar';
 

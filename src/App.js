@@ -3,14 +3,11 @@ import './resources/styles.css';
 import { Element } from 'react-scroll';
 
 import Header from './components/header_footer/Header';
+
 import Featured from './components/featured';
 import About from './components/about';
-import Skills from './components/skills';
-import VenueNfo from './components/venueNfo';
+import Projects from './components/projects';
 
-import Highlight from './components/highlights';
-import Pricing from './components/pricing';
-import Location from './components/location';
 import Footer from './components/header_footer/Footer';
 
 class App extends Component {
@@ -23,29 +20,13 @@ class App extends Component {
           <Featured/>
         </Element>
 
-        {/* <Element name="skills">
-          <Skills/>
-        </Element>
-
-        <Element name="venuenfo">
-          <VenueNfo/>
-        </Element> */}
-
         <Element name="about">
           <About/>
         </Element>
 
-        {/* <Element name="highlights">
-          <Highlight/>
-        </Element> */}
-
-        {/* <Element name="pricing">
-          <Pricing/>
-        </Element> */}
-
-        {/* <Element name="location">
-          <Location/>
-        </Element> */}
+        <Element name="projects">
+          <Projects/>
+        </Element>
 
         <Footer/>
       </div>
