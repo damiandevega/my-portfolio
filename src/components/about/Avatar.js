@@ -10,7 +10,8 @@ import damian from "./images/damiandevega.png";
 
 const styles = {
     root: {
-        flexGrow: 1
+        flexGrow: 1,
+        marginTop: "100px"
     },
     row: {
         display: 'flex',
@@ -46,7 +47,7 @@ function ImageAvatars(props) {
                     <h1 style={{ textAlign: 'center' }}>my biography</h1>
                 </Slide>
                 <Slide right delay={250} duration={1000}>
-                    <p style={{ textAlign: 'left', paddingLeft: '25px', paddingRight: '25px', paddingBottom: '25px' }}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus cumque voluptate vel expedita dignissimos reiciendis id architecto ut ratione sint? Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum praesentium ab rerum sed corporis necessitatibus quam perferendis expedita facilis. Debitis consequatur iure illo deleniti, ullam ex voluptas dolore commodi illum.
+                    <p style={{ textAlign: 'left', paddingLeft: '40px', paddingRight: '40px', paddingBottom: '25px' }}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus cumque voluptate vel expedita dignissimos reiciendis id architecto ut ratione sint? Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum praesentium ab rerum sed corporis necessitatibus quam perferendis expedita facilis. Debitis consequatur iure illo deleniti, ullam ex voluptas dolore commodi illum.
                     <br></br><br></br>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus cumque voluptate vel expedita dignissimos reiciendis id architecto ut ratione sint? Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum praesentium ab rerum sed corporis necessitatibus quam perferendis expedita facilis. Debitis consequatur iure illo deleniti, ullam ex voluptas dolore commodi illum.
                     </p>

@@ -7,6 +7,7 @@ import Header from './components/header_footer/Header';
 import Featured from './components/featured';
 import About from './components/about';
 import Projects from './components/projects';
+import Contact from './components/contact';
 
 import Footer from './components/header_footer/Footer';
 
@@ -26,6 +27,10 @@ class App extends Component {
 
         <Element name="projects">
           <Projects/>
+        </Element>
+
+        <Element name="contact">
+          <Contact/>
         </Element>
 
         <Footer/>

@@ -3,9 +3,6 @@ import Cards from './Cards';
 import Avatar from './Avatar';
 import Slide from 'react-reveal/Slide';
 
-// import Description from './Description';
-// import Discount from './Discount';
-
 const About = () => {
   return (
     <div>
@@ -20,8 +17,6 @@ const About = () => {
         <Cards/>
       </div>
       <Avatar/>
-      {/* <Description/>
-      <Discount/> */}
     </div>
   )
 }
