@@ -10,7 +10,9 @@ const About = () => {
         <h1 style={{ 
           textAlign: "center", 
           padding: "30px", 
-          fontSize: "48px" 
+          paddingTop: "50px",
+          fontSize: "42px",
+          color: "#25cefc"
         }}>about</h1>
       </Slide>
       <div style={{ padding: "25px" }}>

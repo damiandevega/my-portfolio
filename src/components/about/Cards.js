@@ -39,7 +39,7 @@ function CenteredGrid(props) {
             <Bounce left duration={1300}>
                 <Paper className={classes.paper}>
                     <h2>efficient</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, itaque.</p>
+                    <p>Website speed and performance is always a top priority.</p>
                 </Paper>
             </Bounce>
 
@@ -54,7 +54,7 @@ function CenteredGrid(props) {
             <Bounce left delay={250} duration={1300}>
                 <Paper className={classes.paper}>
                     <h2>compatible</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis ad praesentium quae!</p>
+                    <p>Browser and device compatibility is a must-have. Responsiveness is key for web applications.</p>
                 </Paper>
             </Bounce>
 
@@ -69,7 +69,7 @@ function CenteredGrid(props) {
             <Bounce left delay={500} duration={1300}>
                 <Paper className={classes.paper}>
                     <h2>user-friendly</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident fugit quas aspernatur distinctio!</p>
+                    <p>Intuitive UX/UI experience for all types of web users.</p>
                 </Paper>
             </Bounce>
 
@@ -83,8 +83,8 @@ function CenteredGrid(props) {
 
             <Bounce left delay={750} duration={1300}>
                 <Paper className={classes.paper}>
-                    <h2>creative</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, commodi officia.</p>
+                    <h2>innovative</h2>
+                    <p>A touch of creativity is essential on the web in order to stand out.</p>
                 </Paper>
             </Bounce>
 

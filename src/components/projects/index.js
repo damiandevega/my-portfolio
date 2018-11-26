@@ -11,7 +11,8 @@ const Projects = () => {
             paddingTop: "100px",
             paddingBottom: "60px",
             marginBottom: "0",
-            fontSize: "48px"
+            fontSize: "42px",
+            color: "#25cefc"
         }}
         >projects</h1>       
         </Slide>

@@ -32,21 +32,18 @@ const Contact = (props) => {
                     paddingTop: "50px",
                     paddingBottom: "30px",
                     marginBottom: "0",                    
-                    fontSize: "48px"
+                    fontSize: "42px",
+                    color: "#25cefc"
                 }}
                 >contact</h1>
             </Slide>
 
             <Slide right>
-                <p>“Success isn’t owned. It’s leased. And rent is due every day.”  - J. J. Watts</p>
+                <p style={{ color: "#4C4C4C" }}>damiandevega@gmail.com</p>
             </Slide>
 
             <Slide left>
-                <p>(201)779-6219</p>
-            </Slide>
-
-            <Slide right>
-                <p>damiandevega@gmail.com</p>
+                <p style={{ color: "#4C4C4C" }}>(201)779-6219</p>
             </Slide>
 
             <Grid container>
