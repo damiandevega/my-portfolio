@@ -34,56 +34,56 @@ function CenteredGrid(props) {
       <Grid container spacing={24}>
 
         <Grid item xs={12} sm={12} md={6} lg={4}>
-            <Bounce left duration={1300}>
+            <Bounce left delay={0} duration={1300}>
                 <Paper className={classes.paper}>
                     <div className="hovereffect">
-                        <img style={{ width: "100%", height: "100%" }} className="hovereffect" src={animal_hospital}></img>
+                        <img style={{ width: "100%", height: "100%" }} className="hovereffect" src={animal_hospital} alt="animal hospital"></img>
                         <div className="overlay">
                             <h2>Animal Hospital</h2>
                             <p style={{color: "lightblue"}}><strong>project description</strong></p>
-                            <a className="info" href="http://animal-hospital-website-dev.s3-website-us-east-1.amazonaws.com/index.html" target="_blank">go to site</a>
+                            <a className="info" href="http://animal-hospital-website-dev.s3-website-us-east-1.amazonaws.com/index.html" target="_blank" rel="noopener noreferrer">go to site</a>
                         </div>
                     </div>
                 </Paper>
             </Bounce>
         </Grid>
         <Grid item xs={12} sm={12} md={6} lg={6}>
-            <Bounce right delay={250} duration={1300}>
+            <Bounce right delay={0} duration={1300}>
                 <Paper className={classes.paper}>
                     <div className="hovereffect">
-                        <img style={{ width: "100%", height: "100%" }} className="hovereffect" src={movie_info}></img>
+                        <img style={{ width: "100%", height: "100%" }} className="hovereffect" src={movie_info} alt="movie info"></img>
                         <div className="overlay">
                             <h2>Movie Info</h2>
                             <p style={{color: "lightblue"}}><strong>project description</strong></p>
-                            <a className="info" href="http://movie-info.s3-website-us-west-2.amazonaws.com/index.html" target="_blank">go to site</a>
+                            <a className="info" href="http://movie-info.s3-website-us-west-2.amazonaws.com/index.html" target="_blank" rel="noopener noreferrer">go to site</a>
                         </div>
                     </div>
                 </Paper>
             </Bounce>
         </Grid>
         <Grid item xs={12} sm={12} md={6} lg={6}>
-            <Bounce left delay={500} duration={1300}>
+            <Bounce left delay={0} duration={1300}>
                 <Paper className={classes.paper}>
                     <div className="hovereffect">
-                        <img style={{ width: "100%", height: "100%" }} className="hovereffect" src={github_finder}></img>
+                        <img style={{ width: "100%", height: "100%" }} className="hovereffect" src={github_finder} alt="github finder"></img>
                         <div className="overlay">
                             <h2>Github Finder</h2>
                             <p style={{color: "lightblue"}}><strong>project description</strong></p>
-                            <a className="info" href="http://github-finder.s3-website-us-west-2.amazonaws.com/" target="_blank">go to site</a>
+                            <a className="info" href="http://github-finder.s3-website-us-west-2.amazonaws.com/" target="_blank" rel="noopener noreferrer">go to site</a>
                         </div>
                     </div>                
                 </Paper>
             </Bounce>
         </Grid>
         <Grid item xs={12} sm={12} md={6} lg={6}>
-            <Bounce right delay={500} duration={1300}>
+            <Bounce right delay={0} duration={1300}>
                 <Paper className={classes.paper}>
                     <div className="hovereffect">
-                        <img style={{ width: "100%", height: "100%" }} className="hovereffect" src={github_finder}></img>
+                        <img style={{ width: "100%", height: "100%" }} className="hovereffect" src={github_finder} alt="github finder"></img>
                         <div className="overlay">
                             <h2>Github Finder</h2>
                             <p style={{color: "lightblue"}}><strong>project description</strong></p>
-                            <a className="info" href="http://github-finder.s3-website-us-west-2.amazonaws.com/" target="_blank">go to site</a>
+                            <a className="info" href="http://github-finder.s3-website-us-west-2.amazonaws.com/" target="_blank" rel="noopener noreferrer">go to site</a>
                         </div>
                     </div>
                 </Paper>

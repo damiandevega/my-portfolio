@@ -12,7 +12,7 @@ const SideDrawer = (props) => {
             duration: 1500,
             delay: 100,
             smooth: true,
-            offset: -150
+            offset: -100
         });
         props.onClose(false);
     }
@@ -24,24 +24,21 @@ const SideDrawer = (props) => {
             onClose={() => props.onClose(false)}
         >
             <List component="nav">
-                <ListItem button onClick={() => scrollToElement('featured')}>
-                    Event starts in
+
+                <ListItem button onClick={() => scrollToElement('landing')}>
+                    landing
                 </ListItem>
 
-                <ListItem button onClick={() => scrollToElement('venuenfo')}>
-                    Venue NFO
+                <ListItem button onClick={() => scrollToElement('about')}>
+                    about
                 </ListItem>
 
-                <ListItem button onClick={() => scrollToElement('highlights')}>
-                    Highlights
-                </ListItem>
-
-                <ListItem button onClick={() => scrollToElement('pricing')}>
-                    Pricing
+                <ListItem button onClick={() => scrollToElement('projects')}>
+                    projects
                 </ListItem>     
 
-                <ListItem button onClick={() => scrollToElement('location')}>
-                    Location
+                <ListItem button onClick={() => scrollToElement('contact')}>
+                    contact
                 </ListItem>       
             </List>
         </Drawer>

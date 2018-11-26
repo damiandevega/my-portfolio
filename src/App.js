@@ -4,7 +4,7 @@ import { Element } from 'react-scroll';
 
 import Header from './components/header_footer/Header';
 
-import Featured from './components/featured';
+import Landing from './components/featured';
 import About from './components/about';
 import Projects from './components/projects';
 import Contact from './components/contact';
@@ -17,8 +17,8 @@ class App extends Component {
       <div className="App">
         <Header/>
 
-        <Element name="featured">
-          <Featured/>
+        <Element name="landing">
+          <Landing/>
         </Element>
 
         <Element name="about">
