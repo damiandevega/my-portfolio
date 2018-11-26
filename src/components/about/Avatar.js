@@ -44,12 +44,20 @@ function ImageAvatars(props) {
             </Grid>
             <Grid item xs={12} sm={12} md={6}>
                 <Slide right duration={1000}>
-                    <h1 style={{ textAlign: 'center' }}>my biography</h1>
+                    <h1 style={{ textAlign: 'center' }}>about me</h1>
                 </Slide>
                 <Slide right delay={250} duration={1000}>
-                    <p style={{ textAlign: 'left', paddingLeft: '40px', paddingRight: '40px', paddingBottom: '25px' }}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus cumque voluptate vel expedita dignissimos reiciendis id architecto ut ratione sint? Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum praesentium ab rerum sed corporis necessitatibus quam perferendis expedita facilis. Debitis consequatur iure illo deleniti, ullam ex voluptas dolore commodi illum.
-                    <br></br><br></br>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus cumque voluptate vel expedita dignissimos reiciendis id architecto ut ratione sint? Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum praesentium ab rerum sed corporis necessitatibus quam perferendis expedita facilis. Debitis consequatur iure illo deleniti, ullam ex voluptas dolore commodi illum.
+                    <p style={{ 
+                        textAlign: 'left', 
+                        paddingLeft: '40px', 
+                        paddingRight: '40px', 
+                        paddingBottom: '25px' 
+                    }}>
+                        I have a Bachelor of Science degree in Information Management and Technology from Syracuse University. I am an experienced full stack web developer and work with languages such as HTML, CSS, and JavaScript. I also use libraries such as ReactJS, Redux, jQuery, Axios, and many more.
+                        <br></br><br></br>
+                        I love challenges to come up with creative, intriguing projects, making sure to build functional user interfaces that people will enjoy. I thrive on working in fast-paced environments and being part of a team. 
+                        <br></br><br></br>
+                        I look forward to hearing about new web development opportunities and am open to further discussions regarding future projects.
                     </p>
                 </Slide>
             </Grid>
