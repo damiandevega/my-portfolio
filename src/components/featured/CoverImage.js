@@ -1,9 +1,5 @@
 import React from 'react';
 
-// import slide_one from '../../resources/images/the_city_2.jpg';
-// import slide_two from '../../resources/images/the_city_3.jpg';
-// import slide_three from '../../resources/images/the_city_4.jpg';
-
 const CoverImage = () => {
     return (
         <div
