@@ -58,7 +58,7 @@ function ImageAvatars(props) {
                         <br></br><br></br>
                         I love challenges to come up with creative, intriguing projects, making sure to build functional user interfaces that people will enjoy. I thrive on working in fast-paced environments and being part of a team. 
                         <br></br><br></br>
-                        I look forward to hearing about new web development opportunities and am open to further discussions regarding future projects.
+                        Looking forward to hearing about new web development opportunities and am open to further discussions regarding future projects.
                         <br></br><br></br>
                         <p>“Success isn’t owned. It’s leased. And rent is due every day.”  - J. J. Watts</p>
                     </p>
