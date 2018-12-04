@@ -42,7 +42,7 @@ function CenteredGrid(props) {
                     imagePath={developer_connector} 
                     title="developer connector" 
                     description="A social network for developers to connect and ask questions"
-                    link="https://arcane-scrubland-38833.herokuapp.com/"
+                    link="http://www.developerconnector.com/"
                 />
                 {/* <Paper className={classes.paper}>
                     <div className="hovereffect">
