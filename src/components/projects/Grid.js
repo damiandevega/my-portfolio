@@ -39,6 +39,27 @@ function CenteredGrid(props) {
         <Grid item xs={12} sm={12} md={6} lg={6}>
             <Bounce left delay={0} duration={1300}>
                 <Media 
+                    imagePath={bloom_kauai} 
+                    title="bloom kauai" 
+                    description="Floral business in Kauai for leis, flower crowns, bouquets, arrangements, ceremonies etc."
+                    link="http://kauai-flowers.s3-website-us-west-1.amazonaws.com/"
+                />
+                {/* <Paper className={classes.paper}>
+                    <div className="hovereffect">
+                        <img style={{ position: "relative", width: "100%", height: "100%" }} className="hovereffect" src={bloom_kauai} alt="bloom kauai"></img>
+                        <div className="overlay">
+                            <h2>bloom kauai</h2>
+                            <p style={{color: "lightblue"}}><strong>project description</strong></p>
+                            <a className="info" href="http://kauai-flowers.s3-website-us-west-1.amazonaws.com/index.html" target="_blank" rel="noopener noreferrer">go to site</a>
+                        </div>
+                    </div>
+                </Paper> */}
+            </Bounce>
+        </Grid>
+
+        <Grid item xs={12} sm={12} md={6} lg={6}>
+            <Bounce right delay={0} duration={1300}>
+                <Media 
                     imagePath={developer_connector} 
                     title="developer connector" 
                     description="A social network for developers to connect and ask questions"
@@ -57,26 +78,6 @@ function CenteredGrid(props) {
             </Bounce>
         </Grid>
 
-        <Grid item xs={12} sm={12} md={6} lg={6}>
-            <Bounce right delay={0} duration={1300}>
-                <Media 
-                    imagePath={bloom_kauai} 
-                    title="bloom kauai" 
-                    description="Floral business in Kauai for leis, flower crowns, bouquets, arrangements, ceremonies etc."
-                    link="http://kauai-flowers.s3-website-us-west-1.amazonaws.com/"
-                />
-                {/* <Paper className={classes.paper}>
-                    <div className="hovereffect">
-                        <img style={{ position: "relative", width: "100%", height: "100%" }} className="hovereffect" src={bloom_kauai} alt="bloom kauai"></img>
-                        <div className="overlay">
-                            <h2>bloom kauai</h2>
-                            <p style={{color: "lightblue"}}><strong>project description</strong></p>
-                            <a className="info" href="http://kauai-flowers.s3-website-us-west-1.amazonaws.com/index.html" target="_blank" rel="noopener noreferrer">go to site</a>
-                        </div>
-                    </div>
-                </Paper> */}
-            </Bounce>
-        </Grid>
 
         <Grid item xs={12} sm={12} md={6} lg={6}>
             <Bounce left delay={0} duration={1300}>
