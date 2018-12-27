@@ -11,6 +11,8 @@ import developer_connector from "./images/developer-connector.png";
 import bloom_kauai from "./images/bloom-kauai.png";
 import animal_hospital from "./images/animal-hospital.png";
 import movie_info from "./images/movie-info.png";
+import grand_hotel from "./images/grand-hotel.png";
+import data_visualization from "./images/data-visualization.png";
 
 const styles = theme => ({
   root: {
@@ -36,7 +38,7 @@ function CenteredGrid(props) {
     <div className={classes.root}>
       <Grid container spacing={24}>
 
-        <Grid item xs={12} sm={12} md={4}>
+        <Grid item xs={12} sm={6} md={4}>
             <Bounce left delay={0} duration={1300}>
                 <Media 
                     imagePath={bloom_kauai} 
@@ -47,7 +49,7 @@ function CenteredGrid(props) {
             </Bounce>
         </Grid>
 
-        <Grid item xs={12} sm={12} md={4}>
+        <Grid item xs={12} sm={6} md={4}>
             <Bounce left delay={0} duration={1300}>
                 <Media 
                     imagePath={developer_connector} 
@@ -58,7 +60,7 @@ function CenteredGrid(props) {
             </Bounce>
         </Grid>
 
-        <Grid item xs={12} sm={12} md={4}>
+        <Grid item xs={12} sm={6} md={4}>
             <Bounce left delay={0} duration={1300}>
                 <Media 
                     imagePath={animal_hospital} 
@@ -69,18 +71,18 @@ function CenteredGrid(props) {
             </Bounce>
         </Grid>
 
-        <Grid item xs={12} sm={12} md={4}>
+        <Grid item xs={12} sm={6} md={4}>
             <Bounce right delay={0} duration={1300}>
                 <Media 
-                    imagePath={animal_hospital} 
-                    title="animal hospital" 
-                    description="Animal hospital website focused on veterinary services"
-                    link="http://animal-hospital-website-dev.s3-website-us-east-1.amazonaws.com/index.html"
+                    imagePath={grand_hotel} 
+                    title="grand hotel" 
+                    description="A hotel website to view rooms and services offered"
+                    link="http://grand-hotel.s3-website-us-east-1.amazonaws.com/"
                 />
             </Bounce>
         </Grid>
 
-        <Grid item xs={12} sm={12} md={4}>
+        <Grid item xs={12} sm={6} md={4}>
             <Bounce right delay={0} duration={1300}>
                 <Media 
                     imagePath={movie_info} 
@@ -91,13 +93,13 @@ function CenteredGrid(props) {
             </Bounce>
         </Grid>
 
-        <Grid item xs={12} sm={12} md={4}>
+        <Grid item xs={12} sm={6} md={4}>
             <Bounce right delay={0} duration={1300}>
                 <Media 
-                    imagePath={movie_info} 
-                    title="movie info" 
-                    description="A fun search tool to find your favorite movies or shows from their titles"
-                    link="http://movie-info.s3-website-us-west-2.amazonaws.com/index.html"
+                    imagePath={data_visualization} 
+                    title="data visualization" 
+                    description="A data visualization app using HighCharts"
+                    link="http://data-visualization-demo.s3-website-us-east-1.amazonaws.com/"
                 />
             </Bounce>
         </Grid>
