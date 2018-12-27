@@ -43,14 +43,14 @@ function CenteredGrid(props) {
                 <Media 
                     imagePath={bloom_kauai} 
                     title="bloom kauai" 
-                    description="Floral business in Kauai for leis, flower crowns, bouquets, arrangements, ceremonies etc."
+                    description="Floral business in Kauai for flower crowns, bouquets, arrangements, ceremonies etc."
                     link="http://kauai-flowers.s3-website-us-west-1.amazonaws.com/"
                 />
             </Bounce>
         </Grid>
 
         <Grid item xs={12} sm={6} md={4}>
-            <Bounce left delay={0} duration={1300}>
+            <Bounce left delay={250} duration={1300}>
                 <Media 
                     imagePath={developer_connector} 
                     title="developer connector" 
@@ -61,7 +61,7 @@ function CenteredGrid(props) {
         </Grid>
 
         <Grid item xs={12} sm={6} md={4}>
-            <Bounce left delay={0} duration={1300}>
+            <Bounce left delay={500} duration={1300}>
                 <Media 
                     imagePath={animal_hospital} 
                     title="animal hospital" 
@@ -83,23 +83,23 @@ function CenteredGrid(props) {
         </Grid>
 
         <Grid item xs={12} sm={6} md={4}>
-            <Bounce right delay={0} duration={1300}>
+            <Bounce right delay={250} duration={1300}>
                 <Media 
-                    imagePath={movie_info} 
-                    title="movie info" 
-                    description="A fun search tool to find your favorite movies or shows from their titles"
-                    link="http://movie-info.s3-website-us-west-2.amazonaws.com/index.html"
+                    imagePath={data_visualization} 
+                    title="data visualization" 
+                    description="A data visualization app written in ReactJS and using HighCharts"
+                    link="http://data-visualization-demo.s3-website-us-east-1.amazonaws.com/"
                 />
             </Bounce>
         </Grid>
 
         <Grid item xs={12} sm={6} md={4}>
-            <Bounce right delay={0} duration={1300}>
+            <Bounce right delay={500} duration={1300}>
                 <Media 
-                    imagePath={data_visualization} 
-                    title="data visualization" 
-                    description="A data visualization app using HighCharts"
-                    link="http://data-visualization-demo.s3-website-us-east-1.amazonaws.com/"
+                    imagePath={movie_info} 
+                    title="movie info" 
+                    description="A fun search tool to find your favorite movies or shows from their titles"
+                    link="http://movie-info.s3-website-us-west-2.amazonaws.com/index.html"
                 />
             </Bounce>
         </Grid>
