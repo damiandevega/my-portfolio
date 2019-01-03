@@ -98,9 +98,9 @@ function CenteredGrid(props) {
             <Bounce right delay={500} duration={1300}>
                 <Media 
                     imagePath={furniture_store} 
-                    title="movie info" 
-                    description="A fun search tool to find your favorite movies or shows from their titles"
-                    link="http://movie-info.s3-website-us-west-2.amazonaws.com/index.html"
+                    title="furniture store" 
+                    description="A furniture store landing page with gallery using CSS Grid"
+                    link="http://furniture-store.s3-website-us-east-1.amazonaws.com/"
                 />
             </Bounce>
         </Grid>
