@@ -39,8 +39,30 @@ function CenteredGrid(props) {
     <div className={classes.root}>
       <Grid container spacing={24}>
 
-        <Grid item xs={12} sm={6} md={4}>
+      <Grid item xs={12} sm={6} md={4}>
             <Bounce left delay={0} duration={1300}>
+                <Media 
+                    imagePath={grand_hotel} 
+                    title="grand hotel" 
+                    description="A hotel website to view rooms and services offered"
+                    link="http://grand-hotel.s3-website-us-east-1.amazonaws.com/"
+                />
+            </Bounce>
+        </Grid>
+
+        <Grid item xs={12} sm={6} md={4}>
+            <Bounce left delay={250} duration={1300}>
+                <Media 
+                    imagePath={furniture_store} 
+                    title="furniture store" 
+                    description="A furniture store landing page with gallery using CSS Grid"
+                    link="http://furniture-store.s3-website-us-east-1.amazonaws.com/"
+                />
+            </Bounce>
+        </Grid>
+
+        <Grid item xs={12} sm={6} md={4}>
+            <Bounce left delay={500} duration={1300}>
                 <Media 
                     imagePath={bloom_kauai} 
                     title="bloom kauai" 
@@ -51,34 +73,12 @@ function CenteredGrid(props) {
         </Grid>
 
         <Grid item xs={12} sm={6} md={4}>
-            <Bounce left delay={250} duration={1300}>
+            <Bounce right delay={0} duration={1300}>
                 <Media 
                     imagePath={developer_connector} 
                     title="developer connector" 
                     description="A social network for developers to connect and ask questions"
                     link="http://www.developerconnector.com/"
-                />
-            </Bounce>
-        </Grid>
-
-        <Grid item xs={12} sm={6} md={4}>
-            <Bounce left delay={500} duration={1300}>
-                <Media 
-                    imagePath={animal_hospital} 
-                    title="animal hospital" 
-                    description="Animal hospital website focused on veterinary services"
-                    link="http://animal-hospital-website-dev.s3-website-us-east-1.amazonaws.com/index.html"
-                />
-            </Bounce>
-        </Grid>
-
-        <Grid item xs={12} sm={6} md={4}>
-            <Bounce right delay={0} duration={1300}>
-                <Media 
-                    imagePath={grand_hotel} 
-                    title="grand hotel" 
-                    description="A hotel website to view rooms and services offered"
-                    link="http://grand-hotel.s3-website-us-east-1.amazonaws.com/"
                 />
             </Bounce>
         </Grid>
@@ -97,10 +97,10 @@ function CenteredGrid(props) {
         <Grid item xs={12} sm={6} md={4}>
             <Bounce right delay={500} duration={1300}>
                 <Media 
-                    imagePath={furniture_store} 
-                    title="furniture store" 
-                    description="A furniture store landing page with gallery using CSS Grid"
-                    link="http://furniture-store.s3-website-us-east-1.amazonaws.com/"
+                    imagePath={animal_hospital} 
+                    title="animal hospital" 
+                    description="Animal hospital website focused on veterinary services"
+                    link="http://animal-hospital-website-dev.s3-website-us-east-1.amazonaws.com/index.html"
                 />
             </Bounce>
         </Grid>
