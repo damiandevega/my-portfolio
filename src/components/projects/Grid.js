@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
-// import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import Bounce from 'react-reveal/Bounce';
 
@@ -10,7 +9,6 @@ import Media from './Media';
 import developer_connector from "./images/developer-connector.png";
 import bloom_kauai from "./images/bloom-kauai.png";
 import animal_hospital from "./images/animal-hospital.png";
-// import movie_info from "./images/movie-info.png";
 import grand_hotel from "./images/grand-hotel.png";
 import data_visualization from "./images/data-visualization.png";
 import furniture_store from "./images/furniture-store.png";
